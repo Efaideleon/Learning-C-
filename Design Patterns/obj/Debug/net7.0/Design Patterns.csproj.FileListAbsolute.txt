@@ -1,0 +1,14 @@
+/Users/efaideleon/Documents/Efaideleon GitHub Repos/Learning-C-Sharp/Design Patterns/bin/Debug/net7.0/Design Patterns
+/Users/efaideleon/Documents/Efaideleon GitHub Repos/Learning-C-Sharp/Design Patterns/bin/Debug/net7.0/Design Patterns.deps.json
+/Users/efaideleon/Documents/Efaideleon GitHub Repos/Learning-C-Sharp/Design Patterns/bin/Debug/net7.0/Design Patterns.runtimeconfig.json
+/Users/efaideleon/Documents/Efaideleon GitHub Repos/Learning-C-Sharp/Design Patterns/bin/Debug/net7.0/Design Patterns.dll
+/Users/efaideleon/Documents/Efaideleon GitHub Repos/Learning-C-Sharp/Design Patterns/bin/Debug/net7.0/Design Patterns.pdb
+/Users/efaideleon/Documents/Efaideleon GitHub Repos/Learning-C-Sharp/Design Patterns/obj/Debug/net7.0/Design Patterns.GeneratedMSBuildEditorConfig.editorconfig
+/Users/efaideleon/Documents/Efaideleon GitHub Repos/Learning-C-Sharp/Design Patterns/obj/Debug/net7.0/Design Patterns.AssemblyInfoInputs.cache
+/Users/efaideleon/Documents/Efaideleon GitHub Repos/Learning-C-Sharp/Design Patterns/obj/Debug/net7.0/Design Patterns.AssemblyInfo.cs
+/Users/efaideleon/Documents/Efaideleon GitHub Repos/Learning-C-Sharp/Design Patterns/obj/Debug/net7.0/Design Patterns.csproj.CoreCompileInputs.cache
+/Users/efaideleon/Documents/Efaideleon GitHub Repos/Learning-C-Sharp/Design Patterns/obj/Debug/net7.0/Design Patterns.dll
+/Users/efaideleon/Documents/Efaideleon GitHub Repos/Learning-C-Sharp/Design Patterns/obj/Debug/net7.0/refint/Design Patterns.dll
+/Users/efaideleon/Documents/Efaideleon GitHub Repos/Learning-C-Sharp/Design Patterns/obj/Debug/net7.0/Design Patterns.pdb
+/Users/efaideleon/Documents/Efaideleon GitHub Repos/Learning-C-Sharp/Design Patterns/obj/Debug/net7.0/Design Patterns.genruntimeconfig.cache
+/Users/efaideleon/Documents/Efaideleon GitHub Repos/Learning-C-Sharp/Design Patterns/obj/Debug/net7.0/ref/Design Patterns.dll
