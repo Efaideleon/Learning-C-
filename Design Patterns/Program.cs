@@ -1,6 +1,5 @@
 ﻿using StrategyPattern;
 using CommandPattern;
-using System.Runtime.InteropServices;
 
 namespace StrategyPattern
 {
@@ -87,16 +86,78 @@ namespace CommandPattern
             inputHandler.buttonB.Execute(); // button B will attack
         }
     }
-}
 
+    // State pattern practice
+    public interface IState{
+        public void Enter(Character character);
+        public void Execute(Character character);
+        public void Exit(Character character);
+    }
+
+    public class Idle: IState
+    {
+        public void Enter(Character character)
+        {
+            Console.WriteLine("Entering Idle state.");
+        }
+        
+        public void Execute(Character character)
+        {
+            Console.WriteLine("Executing Idle state.");
+        }
+        public void Exit(Character character)
+        {
+            Console.WriteLine("Exiting Idle state.");
+        }
+    }
+
+    public class Jumping: IState
+    {
+        public void Enter(Character character)
+        {
+            Console.WriteLine("Entering Jumping state.");
+        }
+        
+        public void Execute(Character character)
+        {
+            Console.WriteLine("Executing Jumping state.");
+        }
+        public void Exit(Character character)
+        {
+            Console.WriteLine("Exiting Jumping state.");
+        }
+    }
+
+    public class Character
+    {
+        private IState? currentState;
+
+        public void ChangeState(IState newState)
+        {
+            currentState?.Exit(this);
+            currentState = newState;
+            currentState.Enter(this);
+        }
+
+        public void Execute()
+        {
+            currentState?.Execute(this);
+        }
+    }
+}
 class Program
 {
     static void Main(string [] args)
     {
         // Console.WriteLine("Strategy Pattern: ");
         // StrategyPatternProgram.Main();
-        Console.WriteLine("Command Pattern: ");
-        CommandPatternProgram.Run();
+        // Console.WriteLine("Command Pattern: ");
+        // CommandPatternProgram.Run();
+        Console.WriteLine(" State Pattern: ");
+        Character player= new();
+        player.ChangeState(new Idle());
+        player.Execute();
+        player.ChangeState(new Jumping());
     }
 }
 
